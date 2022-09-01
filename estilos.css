@@ -1,0 +1,33 @@
+*{padding: 0%;
+margin:0%;
+
+}
+
+
+body {background-color: rgb(154, 183, 207);
+background-image: url("./fondo-vivo-css.png");
+background-size: cover;
+background-repeat: no-repeat;
+}
+.title { color: rgb(6, 85, 61);
+     font-family: 'Alfa Slab One', cursive;
+}
+h2{ color:rgb(98, 15, 182);
+}
+
+ul{ text-align:center;
+list-style-type: none;
+}
+ul li{ display: inline;
+    margin-right: 1em;
+
+}
+li a{
+   font-weight:500;
+   text-decoration:overline;
+   padding: 6px;
+   border-radius: 5px;
+   border: 2px solid;
+   background-color: rgb(174, 189, 37);(sirve para color del fondo del menu)
+    color: rgb(121, 85, 150);
+}
