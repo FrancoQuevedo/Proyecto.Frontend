@@ -2,7 +2,8 @@
 *{  margin:0;
     padding: 0;
     box-sizing: border-box;
-    text-decoration:none;
+    text-decoration:NONE;
+   
  
 }
 .container{
@@ -11,16 +12,10 @@
     font-family:'rebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: rgb(0, 195, 255);
     display: flex;
-    
 
+    }
 
-}
-
-
-
-
-
-
+  
 .caja{
     width: 200px;
     height: 400px;
@@ -37,6 +32,7 @@
     border-right: 3px solid white;
     font-size:2.5rem;
 
+
 }
 
 header { 
@@ -46,6 +42,7 @@ header {
     background-position:center;
     height:320px;
     background-repeat:no-repeat;
+
 }
 
 h1{ 
@@ -57,13 +54,14 @@ text-shadow: 11px 5px 7px rgb(52, 161, 66)
 
 }
 .linksContainer{
-    font-family:fantasy;
+font-family:fantasy;
+
    margin: 2px ;
    display: flex;/* flebox(lo nuevo para poner horizontal elementos,cajas,menu */
    background-color: rgba(42, 61, 19, 0.589);
     font-weight: bolder;
     text-shadow: 3px 1px 5px;
-    list-style:none;
+    list-style:none
     font-size: 1px;/* se agrega siempre truco para que funcione el menu horzontal */
 }
 
@@ -74,17 +72,11 @@ li { display: inline-block;/* para menu */
     position: relative;/* para menu */
     font-size: 16px;/* se agrega para menu */
     text-align:center;/* se arega para menu */
- text-decoration: rgb(168, 16, 16);
+ text-decoration: rgb(221, 212, 212);
+ 
+ 
 
 }
-
-
-
-
-
-
-
-
 
 .uno{
     background-color: blue;
@@ -111,7 +103,35 @@ li { display: inline-block;/* para menu */
 }
 .ocho{
     background-color:darkmagenta;
+
 }
+.irAPie{
+padding: 0px;
+font-family: fantasy;
+background-color: rgb(158, 150, 150);
+font-style: oblique;
+position: absolute;
+top: 18rem;
+}
+
+
+
+footer{
+background-color: rgb(161, 152, 152);
+color: white;
+padding: 1px;
+}
+
+footer irArriba{
+font-family:Arial, Helvetica, sans-serif solid;
+color:rgb(16, 186, 216);
+
+
+}
+
+
+
+
 
 
 
