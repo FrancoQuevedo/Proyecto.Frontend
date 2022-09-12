@@ -1,42 +1,91 @@
 
 *{  margin:0;
     padding: 0;
-    box-sizing: border-box;
-    text-decoration:NONE;
+    box-sizing: border-box;/* CALCULA AUTM.LOS ANCHOS+EL PADDING */
+    text-decoration:none;
    
  
 }
 .container{
     background-color: rgb(7, 130, 134);
-    text-align:center;
+    text-align:left;
     font-family:'rebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: rgb(0, 195, 255);
+    height: 120vh;
+    width: 70%;
+    float: left;
+    padding: 2rem;
     display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items:flex-start;
+    justify-content: flex-end;
+    
+ }
+ .container h2{
+    background-color: white;
+ font-family: fantasy;
+ color:rgb(98, 228, 81);
+ text-align:end;
+ margin-bottom: 2rem;
+ margin-right: 500px;
+ border-radius: 7px;
+ font-size: 1.7rem;
+ font-weight:bold;
+ text-shadow: 11px 5px 7px rgb(2, 14, 4)
 
-    }
+
+
+ }
 
   
-.caja{
-    width: 200px;
-    height: 400px;
-    padding:2rem;
-    margin-top:5rem;
+.caja {
+    background-color: black;
+    width: 10%;
+    height: 19%;
+    padding: 0.5em;
+    margin-top:0.5rem;
     margin-right: 1rem;
-    margin-bottom: 20rem;
-    margin-left: 1.3rem;
+    margin-bottom: 0.9rem;
+    margin-left: 0.5rem;
     
     border-bottom 20px;
     border-bottom-color: black;
     border-top: 20px solid rgb(88, 7, 68);
     border-left: 15px solid yellow;
     border-right: 3px solid white;
-    font-size:2.5rem;
-
+    font-size:1rem;
+    box-shadow: 5px 7px  white;
+    border-radius: 15px;
 
 }
 
+.sugerencias{
+background-color: rgb(90, 216, 90);
+height: 120vh;
+width: 30%;
+float: right;
+padding: 2rem;
+text-shadow: 11px 5px 7px rgb(52, 161, 66)
+}
+.sugerencias  ul li{ 
+
+    font-family:fantasy;
+    color:rgb(98, 98, 235);
+    line-height: 5rem;
+
+
+}
+h3{
+    font-family:fantasy;
+    color:rgb(44, 24, 224);
+    line-height: 5rem;
+
+}
+
+
 header { 
-    overflow:hidden;
+    
     background-image:url(/img/prueba2.jpg);
     background-size:cover;
     background-position:center;
@@ -65,14 +114,15 @@ font-family:fantasy;
     font-size: 1px;/* se agrega siempre truco para que funcione el menu horzontal */
 }
 
-li { display: inline-block;/* para menu */
+
+.linksContainer li { display: inline-block;/* para menu */
     
     display: inline-block;
-    width: 24%;
+    width: 23%;
     position: relative;/* para menu */
     font-size: 16px;/* se agrega para menu */
     text-align:center;/* se arega para menu */
- text-decoration: rgb(221, 212, 212);
+    text-decoration: rgb(221, 212, 212);
  
  
 
@@ -116,10 +166,35 @@ top: 18rem;
 
 
 
+/* ejemplo submenu */
+.menu {
+    list-style: none;
+    font-size:0 /* truco por el uso de inline-block*/
+}
+.menu li {
+    display: inline-block;
+    width: 25%;
+    position:relative;
+    font-size: 22px
+}
+.submenu {
+    position: absolute;
+    display:none;
+}
+.submenu li {
+    display: block;
+}
+.menu li:hover ul {  /* HOVER MUESTRA LOS SUBITEMS PASANDO EL MAUSE POR ESO DISPLAY:BLCOK */
+    display:block;
+}
+
+
+
 footer{
 background-color: rgb(161, 152, 152);
 color: white;
 padding: 1px;
+clear: both;
 }
 
 footer irArriba{
