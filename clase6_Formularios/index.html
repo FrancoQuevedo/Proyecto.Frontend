@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./estilos.css">
+    <title>Document.cajas</title>
+</head>
+<body>
+    <header id="irArriba" class="encabezado">
+    <h1>The Boxes</h1>
+    </header>
+
+    <div class="irAPie"> 
+        <a href="#pie">Ir a pie de pagina</a>
+         </div>
+
+    <nav>
+        
+        <ul class="linksContainer">
+            <li><a href ="https://www.google.com/?gws_rd=ssl"target="_blank">home</a></li>
+            <li><a href="#">Contacts</a>
+                <ul class="submenu">
+                    <li><a href="">subitem</a></li>    <!--  SUB MENUE -->
+                    <li><a href="">subitem</a></li>
+                </ul>
+            </li>
+            <li><a href="#">About</a></li>
+            <li><a href="#"><a href="img/register.png" target="_blank">Register</a></li>
+            <!-- REDIRECCIONAR MENU AL LUGAR INDICADO(<A HREF=) -->
+                <!-- VER SUB MENU EN "PAGE- CONTACTO" -->" -->
+</ul>
+</nav>
+
+
+<!-- Arrancamos FORMULARIO CON MATIAS  -->
+
+<fieldset class="inputsContainer">     <!--  SIRVE PARA  INFORMAR EL ENCABEZADO DEL FORMULARIO,REGISTRO -->
+<legend>REGISTRO</legend>
+<H3>Completa el Formulario</H3>
+<!-- AHORA SE HACE LOS ITEM A RELLENAR CON LEBEL -->
+<div class="inputContainer"> 
+
+<label for="username">NOMBRE:</label>
+<input type="text" name=username"id="username" placeholder="Nombre"   <!-- placeholder es lo que va dentro del cuadro a llenar -->
+</div> <!-- SIEMPRE PONER UN <DIV> PARA QUE EL PROXIMO "LEBEL"VAYA DEBAJO  -->
+
+    <div class="inputContainer">
+        <label for="Apellido">APAELLIDO:</label>
+        <input type="text" name="apellido"id="Apellido"  placeholder="Apellido"  
+           <!-- el for y el ID SIEMPRE VAN ESCRITO IGUAL -->
+         <!-- placeholder es lo que va dentro del cuadro a llenar -->
+        </div>
+        <DIV>  
+ <label for="COUNTRY">PAIS:</label>
+  <select name="" id="COUNTRY">
+<option value="Argentina">Argentina</option>
+<option value="Peru">Peru</option>
+<option value="Bolivia">Bolivia</option>
+
+  </select>
+</DIV>
+<input TYPE="SUBMIT" value="Enviar">
+</fieldset>
+
+
+
+    <div class="container">
+        <div class="caja uno"><span class="text">caja1</span></div>
+        <div class="caja dos"><span class="text">caja2</span></div>
+        <div class="caja tres"><span class="text">caja3</span></div>
+        <div class="caja cuatro"><span class="text">caja4</span></div>
+        <div class="caja cinco">caja5</div>
+        <div class="caja seis">caja6</div>
+        <div class="caja siete">caja7</div>
+        <div class="caja ocho">caja8</div>
+    </div>
+
+    <footer id="pie">
+       Pie de pagina
+       <div class="irArriba"><a href="#irArriba">Ir arriba</a>
+    </div>
+       
+    </footer>
+</body>
+</html>
