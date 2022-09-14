@@ -1,0 +1,79 @@
+/* NORMALIZE */
+*{margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: black;
+    font-family: 'Ubuntu', sans-serif;
+    }
+    body{
+padding: 2vh 20%;
+
+}
+    .titleContainer h1{
+        text-align: center;
+   
+    
+    }
+
+    .main{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 5vh;
+
+    }
+
+    .formRegister{
+
+        width: 90%;
+display: flex;
+flex-direction: column;
+gap: 5vh;
+    }
+
+    
+.textContainerform{
+display: flex;
+flex-direction: column;
+align-items: center;    
+gap: 8vh;
+
+}
+.textContainerform p a{
+    font-weight: bold; 
+color: #161614;
+}
+
+.errorText{
+    color: #D97A84 ;
+    text-align: center;
+
+}
+
+.input{
+
+    padding: 10px 3px;
+    border:none;
+    border-bottom: 2px solid black;
+}
+
+.submit{
+    padding: 10px;
+    background-color: black;
+color: white;
+border: 1px soild white;
+}
+
+/*  pseudoclases, HOVER , es un elemento de web ,cambia de color lo seleccionado*/
+.submit:hover{
+
+    transition: 1.3s all;
+    background-color: white;
+    border: black 1px solid;
+    color: black;
+}
+
+/* background: rgb(190,193,236);
+background: linear-gradient(180deg, rgba(190,193,236,1) 0%, rgba(195,113,193,1) 50%, rgba(236,195,235,1) 95%);
+COLOR PARA FONDO DEGRADADO */
