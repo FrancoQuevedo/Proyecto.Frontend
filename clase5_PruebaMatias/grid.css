@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+#grilla{
+    display: grid;
+    grid-template-areas: 
+    " header header header header"
+    "nav nav nav nav "
+    "section section section section"
+    "footer footer footer footer ";
+
+  /*   grid-template-rows: 30px 1fr 1fr 100px */
+    grid-column:none;
+
+/*     grid-column-gap: 10px ;  */
+    grid-template-rows:30.1px ;
+    grid-row-gap: 23px ;
+    height: 100vh;
+
+
+}
+
+
+header{
+  background-color: rgba(228, 228, 241, 0.384);
+    grid-area: header;
+    height:50px ;
+    
+
+}
+section{
+background-color: rgb(94, 7, 7);
+grid-area: section;
+
+
+}
+
+.bordernav{
+    background-color:white;
+    grid-area: nav;
+padding:none;
+   
+
+   
+   
+
+
+  
+}
+
+
+footer{
+    background-color: red;
+    grid-area: footer;
+}
+
+
+   
+/* section#productos{
+    background-color: aquamarine;
+    grid-area: productos;
+}
+section#servicios{
+    background-color: rgb(137, 203, 238);
+    grid-area: servicios;
+} */
+
+ 
+    
+
+/* aside{
+    background-color: gold;
+    grid-area: publicidad;
+} */
+

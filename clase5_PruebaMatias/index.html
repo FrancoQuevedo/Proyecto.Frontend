@@ -5,19 +5,155 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="estilos.css">
+   
+  <link rel="stylesheet" href="css/bootstrap.min.css"> 
+  <link rel="stylesheet" href="/grid.css">
+  <link rel="stylesheet" href="./estilos.css">
+ 
 </head>
-
+<!--  4 sectin con grid( section,header,nav,footer) -->
 <body>
     <div id="grilla">
-        <header class="border"> Header </header>
-        <section id="productos" class="border"> SECCION  PRODUCTOS </section>
-        <section id="servicios" class="border"> SECCION  SERVICIOS </section>
-        <nav class="border">  Navegacion </nav>
-        <aside class="border"> Aside</aside>
-        <footer class="border"> Pie de página</footer>
+        <header class="border">
+            <nav class="navbar navbar-expand-lg bg-secondary p-3  ">
+                <div class="container-fluid ">
+                  <a class="navbar-brand  " href=https://www.clima.com/argentina?gclid=Cj0KCQjwj7CZBhDHARIsAPPWv3ffgD1ZkGq6eftQY7iYkzzhN7E8fGQdGteWR_egArTdbs3PbIkWJj8aAnrfEALw_wcB>Clima</a>
+                  <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon "></span>
+                  </button>
+                  <div class="collapse navbar-collapse  " id="navbarNav">
+                    <ul class="navbar-nav  ms-auto p-1">
+                      <li class="nav-item ">
+                        <a class="nav-link active " aria-current="page" href="#">Inicio</a>
+                      </li>
+                      <li class="nav-item ">
+                        <a class="nav-link active" href="#">Contaco</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link active" href="#">Ubicacion</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link active" href="#">Tarifas</a>
+                      </li>              
+                        
+                        
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </nav>
+
+
+        </header>
+
+        
+        <!-- <section id="productos" class="border"> SECCION  PRODUCTOS </section>
+        <section id="servicios" class="border"> SECCION  SERVICIOS </section> -->
+
+        <nav class="bordernav"> 
+            <div class="ContainerHeader">
+
+    
+                <h1>CONTACTO</h1>
+                <figure class="text-center">
+                    <blockquote class="blockquote">
+                      <p>Realice sus Consultas y Reservas</p>
+                     
+                
+                   </figure> 
+                </div>
+            
+        
+        
+        </nav>
+        <section class="borderFormulario" > 
+            
+        
+        
+            <section class="formularioContainer"> 
+                <div class="titleContainer">
+                    <h1>Consultas /Reservas</h1>
+                    </div>
+                    <main class="main">
+                    
+                    <form action class="formRegister">
+                    
+                    <input type="text"placeholder="Nombre" name="name" id="name" class="input"/>
+                    <input type="text"placeholder="Apellido" name="lastname" id="lastname" class="input"/>
+                    <input type="email"placeholder="Email" name="email" id="email" class="input"/>
+                    <textarea name="mensaje" id="mensaje" cols="20" rows="5" minlength="2" maxlength="40"></textarea>
+                    <input type="submit" value="Enviar" class="submit">
+                    
+                    <div class="textContainerform">
+                    <p> ¿ Ya reservaste? <a href="#">No dudes en Consultarnos.</a></p>
+                    <p class="errorText">Si se produce un error al completar el formulario aparecera un mensaje aqui.</p>
+                    
+                    </div>
+                    
+                    
+                    </form>
+                    </main>
+            
+            
+            </section>
+
+       <!--  <aside class="border"> Aside</aside> -->
+
+        <footer class="border"> 
+            <footer class="containerFooter">
+      
+  
+                <div class="bloquefooter">   
+                    
+                    
+                <ul class="clasefooter">
+                    <h6>Servicios</h6>
+                 <li> <a href="#">Agencias y prestadores de Turismo</a></li> 
+                        <li> <a href="#"> Alquiler de Autos</a></li> 
+                            <li> <a href="#">  Dónde Comer - Gastronomía</a></li> 
+                                <li> <a href="#">Empresas y Servicios</a></li> 
+                                    <li> <a href="#">Entretenimiento</a></li> 
+                                        <li> <a href="#"> Inmobiliarias e Inversiones</a></li> 
+                                            <li> <a href="#"> Instituciones y Portales</a></li> 
+                                                <li> <a href="#"> Nieve y Esquí - Servicios</a></li> 
+                                                    <li> <a href="#">Salud y Estética</a></li> 
+                 </ul>
+                      
+                                             <ul class="clasefooter">
+                                                    <h6>Información para tu viaje</h6>
+                                        
+                                        <li> <a href="#"> Excursiones y Paseos</a></li>       
+                                        <li> <a href="#"> Alquiler de Autos</a></li> 
+                                            <li> <a href="#"> Dónde Comer - Gastronomía</a></li> 
+                                                <li> <a href="#">Empresas y Servicios</a></li> 
+                                                    <li> <a href="#">Entretenimiento</a></li> 
+                                                        <li> <a href="#">Inmobiliarias e Inversiones</a></li> 
+                                                            <li> <a href="#">Instituciones y Portales</a></li> 
+                                                                <li> <a href="#"> Nieve y Esquí - Servicios</a></li> 
+                                                                    <li> <a href="#"> Salud y Estética</a></li> 
+                                                    </ul>
+                
+                                                    <ul class="clasefooter">
+                                                        <h6>Contacto</h6>
+                                            
+                                            <li> <a href="#"> (549-1138889655)</a></li>       
+                                            <li> <a href="#"> amanecerhotel@gmail.com</a></li> 
+                                        </ul>
+                  </div>  
+                
+                    </footer>
+
+
+        </footer>
 
 
     </div>
+
+
+    <script src="./js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+        crossorigin="anonymous"></script>
+
 </body>
 </html>
