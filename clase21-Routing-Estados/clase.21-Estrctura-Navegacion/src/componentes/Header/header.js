@@ -1,7 +1,7 @@
 import React from "react";
 import Intro from "../Intro/intro";
 import "./header.css";
-import customButton from "../Button/customButton";
+import CustomButton from "../Button/customButton";
 
 
 const Home = () => {

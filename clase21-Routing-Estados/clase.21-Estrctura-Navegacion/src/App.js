@@ -2,36 +2,42 @@ import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import CustomButton from './componentes/Button/customButton';
 import Footerr from './componentes/Footer/Footer';
-import Home from './componentes/Header/header';
-import Navbar from './componentes/navbar/navbar'
-import { BrowserRouter, Route, Switch } from "react-router-dom";
-import Contacto from "./componentes/Contacto/Contacto";
 
+
+import { BrowserRouter, Route, Switch } from "react-router-dom";
+import Contacto from './componentes/Contacto/Contacto';
+import Personajes from './componentes/Personajes/Personajes';
+import Navbar from './componentes/Navbar/Navbar';
+import Header from './componentes/Header/header';
+import Ejemplo from './componentes/Ejemplo/Ejemplo';
 function App() {
   return (
-
 <BrowserRouter>
-<Navbar/>
-
+<Navbar/> 
+ 
 <Switch>
-<Route exact path="/">
- <Home/>
+        <Route exact path="/">
+        <Header/>
+        </Route>
+        <Route exact path="/contacto1">     
+          <Contacto/>
+
+
+           </Route>
+      <Route exact path="/Personajes">   
+
+          <Personajes/>
+          </Route>
+        <Route exact path="/Ejemplo">
+<Ejemplo/>
 </Route>
 
-<Route exact path="/Contacto">
-
-<Contacto/>
-</Route>
-
-</Switch>
-
+      </Switch>
     <div className="App">
-    
-     
+
      <CustomButton/>
      <Footerr/>
 
-    
     </div>
  
 </BrowserRouter>
